@@ -1,0 +1,213 @@
+:root {
+  --bg-yellow: #fcf6d8;
+  --bg-green-light: #e6f0e3;
+  --bg-green-dark: #9ebca4;
+  --text-main: #2c3e2e;
+  --text-highlight: #6cb89b;
+  --btn-yellow: #f4d068;
+  --white: #ffffff;
+  --fundo-pagina: #fdfaf0;
+}
+
+.contato-layout {
+  background-color: transparent;
+  min-height: calc(100vh - 80px);
+  color: var(--text-main);
+  font-family: 'Nunito', sans-serif;
+}
+
+.contato-hero {
+  background: transparent;
+  padding: 70px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contato-hero h1 {
+  font-size: 3rem;
+  margin: 0 0 10px 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+.contato-hero p {
+  color: #4a5c4c;
+  font-size: 1.1rem;
+  max-width: 500px;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+.contato-conteudo {
+  background: linear-gradient(90deg, rgba(228,238,176,0.95) 0%, rgba(164,206,175,0.95) 100%);
+  padding: 60px 10%;
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contato-info-col {
+  flex: 1;
+  max-width: 400px;
+}
+
+.contato-info-col h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.info-card {
+  background: var(--white);
+  border: 1px solid #eee;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+}
+
+.info-icone {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.verde-claro { background-color: var(--bg-green-light); }
+.amarelo-claro { background-color: #fef7e0; }
+
+.info-textos {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nunito', sans-serif;
+}
+
+.info-label {
+  font-size: 0.75rem;
+  color: #888;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.info-textos strong {
+  font-size: 1.05rem;
+  margin-bottom: 2px;
+}
+
+.info-textos p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.contato-form-col {
+  flex: 1.2;
+  max-width: 520px;
+}
+
+.form-card {
+  background: var(--white);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.form-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.form-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-linha {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.form-grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-grupo label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #555;
+  font-family: 'Nunito', sans-serif;
+}
+
+.form-grupo input,
+.form-grupo textarea {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  outline: none;
+  font-family: 'Nunito', sans-serif;
+  transition: border-color 0.2s;
+  background: #fafafa;
+}
+
+.form-grupo input:focus,
+.form-grupo textarea:focus {
+  border-color: var(--text-highlight);
+}
+
+.form-grupo textarea {
+  resize: vertical;
+}
+
+.btn-enviar-msg {
+  background: var(--btn-yellow);
+  color: var(--text-main);
+  border: none;
+  padding: 15px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: transform 0.2s;
+  font-family: 'Nunito', sans-serif;
+}
+
+.btn-enviar-msg:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .contato-conteudo {
+    flex-direction: column;
+    padding: 40px 5%;
+  }
+
+  .form-linha {
+    grid-template-columns: 1fr;
+  }
+
+  .contato-info-col,
+  .contato-form-col {
+    max-width: 100%;
+  }
+}

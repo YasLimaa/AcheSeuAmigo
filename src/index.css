@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poppins:wght@500;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #fcf6d8 !important;
+  background-image: url('./background-paws.png') !important;
+  background-repeat: repeat !important;
+  background-size: 400px !important;
+  background-attachment: fixed !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  color: #2c3e2e;
+  background: transparent !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 700;
+}
+
+.font-body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.font-heading {
+  font-family: 'Poppins', sans-serif;
+}

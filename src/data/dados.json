@@ -1,0 +1,46 @@
+{
+  "usuarios": [
+    { "id": 1, "nome": "João Silva", "idade": 30, "cidade": "São Paulo", "estado": "SP", "endereco": "Ria das Flores, 123", "email": "joao@gmail.com", "telefone": "(11) 98765-4321", "senha": "123" },
+    { "id": 2, "nome": "Maria Oliveira", "idade": 25, "cidade": "Rio de Janeiro", "estado": "RJ", "endereco": "Av. Central, 456", "email": "maria@gmail.com", "telefone": "(11) 91234-5678", "senha": "123" },
+    { "id": 3, "nome": "Carlos Pereira", "idade": 40, "cidade": "São Paulo", "estado": "SP", "endereco": "Rua dos Pinheiros, 789", "email": "carlos@gmail.com", "telefone": "(11) 92345-6789", "senha": "123" },
+    { "id": 4, "nome": "Ana Costa", "idade": 28, "cidade": "Recife", "estado": "PE", "endereco": "Av. Paulista, 321", "email": "ana@gmail.com", "telefone": "(11) 93456-7890", "senha": "123" },
+    { "id": 5, "nome": "Pedro Santos", "idade": 35, "cidade": "Brasília", "estado": "DF", "endereco": "Rua da Paz, 654", "email": "pedro@gmail.com", "telefone": "(11) 94567-8901", "senha": "123" },
+    { "id": 6, "nome": "Luiza Fernandes", "idade": 22, "cidade": "Niterói", "estado": "RJ", "endereco": "Av. das Américas, 987", "email": "luiza@gmail.com", "telefone": "(11) 95678-9012", "senha": "123" },
+    { "id": 7, "nome": "Rafael Almeida", "idade": 27, "cidade": "Fernando de Noronha", "estado": "PE", "endereco": "Rua do Sol, 321", "email": "rafael@gmail.com", "telefone": "(11) 96789-0123", "senha": "123" },
+    { "id": 8, "nome": "Ariany Stefany", "idade": 21, "cidade": "São Paulo", "estado": "SP", "endereco": "Av. dos Estados, 654", "email": "ariany@gmail.com", "telefone": "(11) 97890-1234", "senha": "123" },
+    { "id": 9, "nome": "Bruno Rodrigues", "idade": 29, "cidade": "Recife", "estado": "PE", "endereco": "Rua das Acacia, 987", "email": "bruno@gmail.com", "telefone": "(11) 98901-2345", "senha": "123" },
+    { "id": 10, "nome": "Carla Mendes", "idade": 26, "cidade": "Fortaleza", "estado": "CE", "endereco": "Av. dos Pássaros, 321", "email": "carla@gmail.com", "telefone": "(11) 99012-3456", "senha": "123" },
+    { "id": 11, "nome": "Gustavo Camilo", "idade": 21, "cidade": "São Paulo", "estado": "SP", "endereco": "Travessa Três Idades, 4", "email": "gustavo@gmail.com", "telefone": "(11) 99012-3456", "senha": "123" }
+  ],
+  "animais": [
+    { "id": 101, "nome": "Thor", "especie": "Cachorro", "idade": "2 anos", "genero": "Macho", "raca": "Golden Retriever", "porte": "Grande", "personalidade": "É o companheiro perfeito: dócil, carinhoso e super fã de brincar com bolinhas. Se dá muito bem com crianças e outros pets.", "tutorId": 1, "imagem": "img/thor.jpg" },
+    { "id": 102, "nome": "Luna", "especie": "Cachorro", "idade": "5 meses", "genero": "Fêmea", "raca": "Vira-lata", "porte": "Pequeno", "personalidade": "Resgatada das ruas, ela ainda é um pouquinho tímida, mas é muito mansa, carinhosa e adora um colinho sossegado.", "tutorId": 1, "imagem": "img/luna.jpg" },
+    { "id": 103, "nome": "Tom", "especie": "Gato", "idade": "1 ano", "genero": "Macho", "raca": "Siamês", "porte": "Pequeno", "personalidade": "Muito companheiro de home office, passa o dia roncando do lado do teclado e miando baixo para pedir sachê.", "tutorId": 2, "imagem": "img/tom.jpg" },
+    { "id": 104, "nome": "Bentinho", "especie": "Cachorro", "idade": "2 anos", "genero": "Macho", "raca": "Pinscher", "porte": "Pequeno", "personalidade": "Um reizinho valente e muito ativo! Adora dormir coberto e é extremamente apegado e dócil com os donos.", "tutorId": 8, "imagem": "img/bentinho.jpg" },
+    { "id": 105, "nome": "Zazu", "especie": "Passaro", "idade": "1 ano", "genero": "Macho", "raca": "Calopsita", "porte": "Pequeno", "personalidade": "Muito mansinho, adora ficar solto no ombro e assobia músicas que aprende com os donos. Ama ganhar pedacinhos de maçã.", "tutorId": 2, "imagem": "img/zazu.jpg" },
+    { "id": 106, "nome": "Alvin", "especie": "Hamster", "idade": "6 meses", "genero": "Macho", "raca": "Sírio", "porte": "Pequeno", "personalidade": "Super curioso e cheio de energia, passa a noite correndo na rodinha. Já está bem acostumado a brincar na mão.", "tutorId": 3, "imagem": "img/alvin.jpg" },
+    { "id": 107, "nome": "Bella", "especie": "Cachorro", "idade": "1 ano", "genero": "Fêmea", "raca": "Labrador Retriever", "porte": "Médio", "personalidade": "Uma cachorrinha amigável e cheia de vida. Ama correr atrás de brinquedos e o seu sonho é tomar banho de piscina.", "tutorId": 2, "imagem": "img/bella.jpg" },
+    { "id": 108, "nome": "Charlie", "especie": "Cachorro", "idade": "4 anos", "genero": "Macho", "raca": "Bulldog Francês", "porte": "Pequeno", "personalidade": "Muito preguiçoso e afetuoso, o Charlie prefere passar o dia dormindo no chão gelado do que fazer longos passeios.", "tutorId": 3, "imagem": "img/charlie.jpg" },
+    { "id": 109, "nome": "Mia", "especie": "Gato", "idade": "6 meses", "genero": "Fêmea", "raca": "Persa", "porte": "Pequeno", "personalidade": "Uma verdadeira bolinha de pelo, muito dócil e silenciosa. Passa o dia de olho no movimento e adora um carinho leve.", "tutorId": 3, "imagem": "img/mia.jpg" },
+    { "id": 110, "nome": "Mel", "especie": "Cachorro", "idade": "6 meses", "genero": "Fêmea", "raca": "Poodle", "porte": "Pequeno", "personalidade": "Muito inteligente e brincalhona, aprende truques rápido e já sabe usar o tapetinho higiênico. Adora receber visitas.", "tutorId": 3, "imagem": "img/mel.jpg" },
+    { "id": 111, "nome": "Rocky", "especie": "Cachorro", "idade": "2 anos", "genero": "Macho", "raca": "Boxer", "porte": "Grande", "personalidade": "Super leal, forte e enérgico, mas tem alma de criança. Excelente cão de alerta e ótimo parceiro para caminhadas.", "tutorId": 4, "imagem": "img/rocky.jpg" },
+    { "id": 112, "nome": "Pipoca", "especie": "Passaro", "idade": "6 meses", "genero": "Fêmea", "raca": "Canário", "porte": "Pequeno", "personalidade": "Muito alegre e sociável, ela adora cantar pela manhã e fica super contente quando ganha folhas de almeirão fresco.", "tutorId": 4, "imagem": "img/pipoca.jpg" },
+    { "id": 113, "nome": "Daisy", "especie": "Cachorro", "idade": "1 ano", "genero": "Fêmea", "raca": "Shih Tzu", "porte": "Pequeno", "personalidade": "Uma fofura de cadela, carinhosa e muito apegada aos donos. Adora ficar no colo assistindo TV com a família.", "tutorId": 4, "imagem": "img/daisy.jpg" },
+    { "id": 114, "nome": "Zeus", "especie": "Cachorro", "idade": "3 anos", "genero": "Macho", "raca": "Rottweiler", "porte": "Grande", "personalidade": "Protetor nato e muito leal à família. Precisa de espaço no quintal, mas é um bobão que ama um carinho no peito.", "tutorId": 5, "imagem": "img/zeus.jpg" },
+    { "id": 115, "nome": "Lola", "especie": "Cachorro", "idade": "2 anos", "genero": "Fêmea", "raca": "Yorkshire Terrier", "porte": "Pequeno", "personalidade": "Super brincalhona e ciumenta com os donos, adora latir para avisar quem chega e gosta de dormir junto na cama.", "tutorId": 5, "imagem": "img/lola.jpg" },
+    { "id": 116, "nome": "Pompom", "especie": "Porquinho da Índia", "idade": "8 meses", "genero": "Fêmea", "raca": "Inglês", "porte": "Pequeno", "personalidade": "Muito mansa e dócil, ela faz barulhinhos fofos toda vez que ouve a porta da geladeira abrir buscando vegetais.", "tutorId": 6, "imagem": "img/pompom.jpg" },
+    { "id": 117, "nome": "Simba", "especie": "Cachorro", "idade": "4 anos", "genero": "Macho", "raca": "Cocker Spaniel", "porte": "Médio", "personalidade": "Amigável e ativo, adora passear farejando tudo na rua e é um companheiro muito carinhoso com toda a casa.", "tutorId": 6, "imagem": "img/simba.jpg" },
+    { "id": 118, "nome": "Oliver", "especie": "Gato", "idade": "2 anos", "genero": "Macho", "raca": "Vira-lata", "porte": "Pequeno", "personalidade": "Gato moleque legítimo: super ativo, curioso e adora escalar armários. Precisa de uma casa telada para as suas artes.", "tutorId": 6, "imagem": "img/oliver.jpg" },
+    { "id": 119, "nome": "Toby", "especie": "Cachorro", "idade": "2 anos", "genero": "Macho", "raca": "Schnauzer", "porte": "Médio", "personalidade": "Inteligente e muito focado nos donos, aprende comandos fácil e é um cão de alerta excelente para proteger a casa.", "tutorId": 7, "imagem": "img/toby.jpg" },
+    { "id": 120, "nome": "Max", "especie": "Cachorro", "idade": "3 anos", "genero": "Macho", "raca": "Pastor Alemão", "porte": "Grande", "personalidade": "Definição de lealdade e obediência. É muito protetor com a família e se dá super bem defendendo as crianças.", "tutorId": 2, "imagem": "img/max.jpg" },
+    { "id": 122, "nome": "Lion", "especie": "Gato", "idade": "8 anos", "genero": "Macho", "raca": "Vira-lata", "porte": "Médio", "personalidade": "Lion é um gato preguiçoso, tranquilo e mimado. Mas tem um coração enorme e adora brincar com os donos.", "tutorId": 11, "imagem": "img/lion.jpg" }
+  ],
+  "adocoes": [
+    { "id": 501, "animalId": 102, "adotanteId": 2, "data": "2024-05-10", "status": "Pendente" },
+    { "id": 502, "animalId": 105, "adotanteId": 3, "data": "2024-05-15", "status": "Pendente" },
+    { "id": 503, "animalId": 110, "adotanteId": 5, "data": "2024-05-20", "status": "Pendente" },
+    { "id": 504, "animalId": 113, "adotanteId": 6, "data": "2024-05-25", "status": "Pendente" },
+    { "id": 505, "animalId": 117, "adotanteId": 10, "data": "2024-05-30", "status": "Pendente" }
+  ]
+}
+

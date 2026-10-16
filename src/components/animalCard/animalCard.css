@@ -1,0 +1,78 @@
+.animal-card {
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 260px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.animal-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.animal-card-img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 180px;
+}
+
+.animal-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.animal-card-heart {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  background: rgba(255,255,255,0.85);
+  color: #e07a7a;
+  font-size: 1.1rem;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.animal-card-body {
+  padding: 16px;
+  text-align: center;
+  color: #2c3e2e;
+}
+
+.animal-card-nome {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #2c3e2e;
+}
+
+.animal-card-body p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 4px 0;
+}
+
+.animal-card-btn {
+  display: block;
+  margin-top: 14px;
+  padding: 10px 0;
+  background: #6cb89b;
+  color: #ffffff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background 0.2s ease;
+}
+
+.animal-card-btn:hover {
+  background: #4da07f;
+}

@@ -1,0 +1,121 @@
+.navbar {
+  background-color: #f4d068;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 3%;
+  font-family: 'Nunito', sans-serif;
+  position: relative;
+  z-index: 100;
+  box-shadow: 0 3px 0px #d4a830;
+}
+
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.nav-logo-img {
+  height: 120px;
+  width: auto;
+  object-fit: contain;
+  position: relative;
+  z-index: 101;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.15));
+  transition: transform 0.2s;
+}
+
+.nav-logo-img:hover {
+  transform: scale(1.04);
+}
+
+.nav-centro {
+  background: rgba(255,255,255,0.25);
+  border-radius: 50px;
+  padding: 5px 6px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 2px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #5c3a00;
+  font-weight: 600;
+  font-size: 0.88rem;
+  padding: 7px 15px;
+  border-radius: 40px;
+  transition: background 0.25s ease;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-menu li a:hover {
+  background: rgba(255,255,255,0.4);
+}
+
+.nav-menu li a.ativo {
+  background: rgba(255,255,255,0.5);
+  color: #3d2800;
+  font-weight: 700;
+}
+
+.nav-botoes {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.btn-nav-login,
+.btn-nav-cadastrar,
+.btn-nav-perfil,
+.btn-nav-sair {
+  background: rgba(255,255,255,0.25);
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  color: #5c3a00;
+  padding: 7px 15px;
+  border-radius: 40px;
+  font-size: 0.88rem;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  transition: background 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+  appearance: none;
+  -webkit-appearance: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.btn-nav-login:hover,
+.btn-nav-cadastrar:hover,
+.btn-nav-perfil:hover,
+.btn-nav-sair:hover {
+  background: rgba(255,255,255,0.5);
+  color: #5c3a00;
+  text-decoration: none;
+}
