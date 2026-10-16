@@ -2,6 +2,13 @@
 
 Aplicação web de demonstração para aproximar pessoas interessadas em adoção e animais que procuram um lar. O projeto permite explorar pets disponíveis, consultar seus perfis e registrar interesse em adoção.
 
+> Aplicação desenvolvida para facilitar o contacto e a localização/encontro de animais perdidos ou para adoção.
+
+# Equipe 
+- [Alberto Caetano](https://github.com/albertocaetano)
+- [Roberto Dias](https://github.com/RobertoDias31)
+- [Yasmin Lima](https://github.com/YasLimaa)
+
 ## Funcionalidades
 
 - Listagem de animais com busca por nome ou raça e filtro por espécie.
